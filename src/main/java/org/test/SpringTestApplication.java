@@ -18,6 +18,7 @@ import java.util.regex.Pattern;
 public class SpringTestApplication {
 
     public static void main(String[] args) {
+        System.out.println("test1分支的修改");
         ThreadLocal<Object> tl = new ThreadLocal<>();
         tl.set("");
         tl.get();
